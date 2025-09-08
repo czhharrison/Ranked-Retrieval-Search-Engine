@@ -56,12 +56,13 @@ Score(d) = \alpha \times \frac{\#matched\_terms}{\#total\_query\_terms} + \beta 
 - 顺序保持：若文档中词序与查询一致，得分提升
 
 ### 4. 特殊显示模式
+
 当查询以 "> " 开头时，会输出文档中包含最优匹配词的文本行。例如：
-    ```bash
-      $ python3 search.py ./MyTestIndex
-      > Apples
-      > 1361
-        The department said stocks of fresh apples in cold storage
+```bash
+$ python3 search.py ./MyTestIndex
+> Apples
+> 1361
+The department said stocks of fresh apples in cold storage
 ---
 
 ## 运行指南 (Quick Start)
