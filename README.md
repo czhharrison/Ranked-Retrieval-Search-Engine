@@ -62,7 +62,6 @@ Score(d) = \alpha \times \frac{\#matched\_terms}{\#total\_query\_terms} + \beta 
       > Apples
       > 1361
         The department said stocks of fresh apples in cold storage
-
 ---
 
 ## 运行指南 (Quick Start)
@@ -73,9 +72,7 @@ Score(d) = \alpha \times \frac{\#matched\_terms}{\#total\_query\_terms} + \beta 
   - NLTK （需预先下载所需资源包）
 
 ### 2. 构建索引
-    ```bash
     python3 index.py [folder-of-documents] [folder-of-indexes]
 
 ### 3. 执行搜索
-    ```bash
     python3 search.py [folder-of-indexes]
