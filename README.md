@@ -7,9 +7,9 @@
 3. **查询词顺序保持情况**
 
 排序公式如下：
-\[
-Score(d) = \alpha \times \frac{\#matched\_terms}{\#total\_query\_terms} + \beta \times \frac{1}{1 + avg\_pair\_distance} + \gamma \times ordered\_pairs
-\]
+<img width="861" height="78" alt="image" src="https://github.com/user-attachments/assets/d577b744-6605-41b7-b9f9-37ea2250c206" />
+
+
 其中默认参数为：  
 - α = 1.0  
 - β = 1.0  
