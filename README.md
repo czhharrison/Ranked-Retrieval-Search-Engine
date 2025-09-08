@@ -7,6 +7,8 @@
 3. **查询词顺序保持情况**
 
 排序公式如下：
+
+
 <img width="861" height="78" alt="image" src="https://github.com/user-attachments/assets/d577b744-6605-41b7-b9f9-37ea2250c206" />
 
 
